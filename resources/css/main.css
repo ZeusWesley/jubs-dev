@@ -94,4 +94,8 @@
   font-weight: bold;
   margin-left: 3px; }
 
+.material-icons {
+  transform: translate(0, 4px);
+  font-size: 19px !important; }
+
 /*# sourceMappingURL=main.css.map */
