@@ -106,4 +106,38 @@
   transform: translate(0, 4px);
   font-size: 19px !important; }
 
+.mobile {
+  display: none; }
+
+@media screen and (max-width: 900px) {
+  .wipe-in {
+    opacity: 1;
+    transition: transform 3s, opacity 3s;
+    transform: translateY(0%); }
+
+  .wipe-out {
+    opacity: 0;
+    transition: transform 2700ms, opacity 2700ms;
+    transform: translateY(50%); } }
+@media screen and (max-width: 767px) {
+  .desktop {
+    display: none; }
+
+  .wipe-in {
+    opacity: 1;
+    transition: transform 3s, opacity 3s;
+    transform: translateY(0%); }
+
+  .wipe-out {
+    opacity: 0;
+    transition: transform 2700ms, opacity 2700ms;
+    transform: translateY(50%); }
+
+  #header {
+    height: auto;
+    overflow: auto; }
+
+  .jobs-carrousel {
+    min-height: 100vh; } }
+
 /*# sourceMappingURL=main.css.map */
