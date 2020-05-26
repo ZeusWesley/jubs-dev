@@ -57,7 +57,7 @@ button:focus, a:focus, input:focus, textarea:focus {
   z-index: 100; }
   .mainmenu ul li.nav-item a.nav-link {
     position: relative;
-    font-size: 44px;
+    font-size: 3em;
     transition: 300ms;
     color: white;
     text-transform: uppercase; }
@@ -157,6 +157,9 @@ button:focus, a:focus, input:focus, textarea:focus {
     transition: transform 2700ms, opacity 2700ms;
     transform: translateY(50%); } }
 @media screen and (max-width: 767px) {
+  a.nav-link {
+    font-size: 1.5em !important; }
+
   .desktop {
     display: none; }
 
