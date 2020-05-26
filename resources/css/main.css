@@ -47,7 +47,7 @@ button:focus, a:focus, input:focus, textarea:focus {
 
 .mainmenu {
   position: fixed;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.9);
   top: 0;
   left: 0;
   width: 100%;
